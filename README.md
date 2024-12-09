@@ -62,6 +62,8 @@ This repository contains the following folder and file hierarchy for managing da
 │       ├── images/  
 │       └── labels/  
 ├── notebooks
+
 ├── models
+
 └── README.md  
 
