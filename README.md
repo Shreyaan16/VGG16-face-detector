@@ -22,7 +22,46 @@ Leverages the pre-trained VGG16 architecture for robust feature extraction.
 
 steps:
 Assuming you already have these files in the directory
+
 1)run the collection ( this includes capturing and annotating the required images)
+
 2)run the splitting
+
 3)run the augmenting
+
 4)run the final dl model
+
+
+
+
+Project Folder Structure:
+
+This repository contains the following folder and file hierarchy for managing data, notebooks, and models effectively:
+
+.
+├── aug_data/  
+│   ├── train/  
+│   │   ├── images/  
+│   │   └── labels/  
+│   ├── test/  
+│   │   ├── images/  
+│   │   └── labels/  
+│   └── val/  
+│       ├── images/  
+│       └── labels/  
+├── data/  
+│   ├── images/  
+│   ├── labels/  
+│   ├── train/  
+│   │   ├── images/  
+│   │   └── labels/  
+│   ├── test/  
+│   │   ├── images/  
+│   │   └── labels/  
+│   └── val/  
+│       ├── images/  
+│       └── labels/  
+├── notebooks
+├── models
+└── README.md  
+
